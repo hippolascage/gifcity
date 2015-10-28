@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-route.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.4/ui-bootstrap.min.js"></script>
+        <script src="app.js"></script>
+        <script src="maincontroller.js"></script>
+        <script src="cats.js"></script>
+        <script src="trending.js"></script>
+        <script src="gifs.js"></script>
+        <meta charset="UTF-8">
+        <title>gifcity</title>
+    </head>
+    <body data-ng-app="gifcity">
+        <header>
+            <h1><a href="#/">gifcity</a></h1>
+        </header>
+        <div data-ng-view class="main-view"></div>
+    </body>
+    <footer>
+        <p>gifcity</p>
+    </footer>
+</html>
