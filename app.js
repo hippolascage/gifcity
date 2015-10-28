@@ -21,9 +21,10 @@
             });
     });
 
-    app.directive('gifPreview', function() {
+    app.directive('ngGifPreview', function() {
         return {
-            template: '<div>not broken</div>',
+            restrict: 'A',
+            templateUrl: 'gifpreview.html',
             replace: true
         }
     });

@@ -16,7 +16,6 @@
 
             return $http.get(queryUrl)
                 .then(function(response) {
-                    console.log(response);
                     return response.data.data;
                 });
         };
